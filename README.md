@@ -35,8 +35,8 @@ src/
 └── pages/
     └── Index.jsx
 
-📌 Sections Included
 
+📌 Sections Included
 Navbar
 Provides navigation links to different sections of the portfolio.
 
