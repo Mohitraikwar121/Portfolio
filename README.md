@@ -20,7 +20,6 @@ A modern and responsive personal portfolio website built with React. This projec
 - **Vite** - Fast development and build tool
 📂 Project Structure
 
-
 src/
 │
 ├── components/
@@ -36,7 +35,6 @@ src/
 │
 └── pages/
     └── Index.jsx
-
 
 📌 Sections Included
 Navbar
@@ -71,7 +69,3 @@ Contributions, suggestions, and improvements are welcome. Feel free to fork this
 
 📄 License
 This project is open-source and available under the MIT License.
-
----
-
-Made with ❤️ using React
