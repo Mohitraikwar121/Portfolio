@@ -49,7 +49,6 @@ Objective| Implementation
 ♿ Accessibility| Semantic HTML and accessible interaction patterns
 🚀 Extensibility| Modular structure for future features
 
----
 
 ✨ Features
 
@@ -65,7 +64,6 @@ Objective| Implementation
 - 🧹 ESLint — Consistent code quality and development standards
 - 📂 Modular Project Structure — Organized codebase designed for future expansion
 
----
 
 📄 Portfolio Sections
 
@@ -159,7 +157,6 @@ Contains supporting navigation and professional information such as:
 - Copyright information
 - Additional resources
 
----
 
 🖥️ Tech Stack
 
@@ -171,7 +168,6 @@ Technology| Role
 📦 npm| Dependency and package management
 🧹 ESLint| Code quality and consistency
 
----
 
 🏗️ Architecture
 
@@ -213,7 +209,6 @@ Architectural Principles
 - Maintainability — Clear folder organization makes future modifications easier
 - Scalability — New sections and functionality can be added without restructuring the entire application
 
----
 
 📂 Project Structure
 
