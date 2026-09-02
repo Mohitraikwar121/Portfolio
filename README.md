@@ -1,122 +1,221 @@
-# 🌐 Personal Portfolio Website
+🌐 Personal Portfolio Website
 
-> A modern, responsive, and interactive developer portfolio built with **React, TypeScript, Tailwind CSS, and Vite** — created to showcase technical expertise, projects, experience, achievements, and professional growth.
+«A modern, responsive, and interactive developer portfolio built with React, TypeScript, Tailwind CSS, and Vite to showcase technical skills, projects, experience, achievements, education, and professional growth.»
 
 <p align="center">
+  <img src="https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-5+-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3+-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Vite-7+-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+</p><p align="center">
+  A professional developer portfolio focused on clean UI, responsive design, reusable components, and a strong presentation of technical work.
+</p><p align="center">
   <a href="#-overview">Overview</a> •
   <a href="#-features">Features</a> •
   <a href="#-tech-stack">Tech Stack</a> •
   <a href="#-architecture">Architecture</a> •
   <a href="#-project-structure">Structure</a> •
   <a href="#-getting-started">Setup</a> •
+  <a href="#-deployment">Deployment</a> •
   <a href="#-roadmap">Roadmap</a>
-</p>
+</p>---
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
-  <img src="https://img.shields.io/badge/TypeScript-5+-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-3+-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
-  <img src="https://img.shields.io/badge/Vite-7+-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
-</p>
+📌 Overview
 
-## ✨ Overview
-This portfolio is a **professional personal website** designed to present my journey as a Computer Science & Engineering student and developer.
-It brings together my:
+This project is a personal developer portfolio website designed to provide a centralized and professional representation of my technical background, development journey, and selected work.
 
-* 👨‍💻 Technical skills
-* 🚀 Software and AI/ML projects
-* 💼 Professional experience
-* 🏆 Achievements and certifications
-* 🎓 Education
-* 🤝 Services and capabilities
-* 📬 Contact and social profiles
+The portfolio brings together:
 
-The application follows a **component-driven architecture**, making the interface modular, maintainable, and easy to extend.
+- 👨‍💻 Technical skills and areas of expertise
+- 🚀 Software, web, and AI/ML projects
+- 💼 Professional experience
+- 🎓 Educational background
+- 🏆 Achievements and certifications
+- 🤝 Services and development capabilities
+- 📬 Contact and professional networking information
+- 🔗 GitHub and other professional/social profiles
 
-### 🎯 Design Goals
+The application is built using a component-driven React architecture, allowing individual sections to remain modular, reusable, maintainable, and easier to extend.
 
-The portfolio focuses on:
-| Goal                | Approach                                        |
-| ------------------  | ---------------------------------------------   |
-| 🎨 Visual Design    | Modern, minimal, developer-focused UI           |
-| 📱 Responsiveness   | Mobile-first responsive layouts                 |
-| ⚡ Performance      | Vite-powered development and optimized builds  |
-| 🧩 Maintainability  | Reusable React components                       |
-| ♿ Accessibility    | Semantic and accessible UI patterns            |
-| 🚀 Scalability      | Modular architecture for future features        |
-| 💼 Professionalism  | Clear presentation of skills and experience     |
+🎯 Project Objectives
 
+Objective| Implementation
+🎨 Modern UI| Clean, professional developer-focused interface
+📱 Responsive Design| Layouts designed for desktop, tablet, and mobile
+⚡ Fast Development| Vite-based development and build workflow
+🧩 Maintainability| Reusable React components
+📘 Type Safety| TypeScript-based development
+🎨 Consistent Styling| Tailwind CSS utility-based styling
+♿ Accessibility| Semantic HTML and accessible interaction patterns
+🚀 Extensibility| Modular structure for future features
 
-## 🚀 Features
-### 🎯 Core Features
-* 📱 **Fully Responsive** — Optimized for desktop, tablet, and mobile
-* ⚛️ **Component-Based Architecture** — Reusable and modular React components
-* 🎨 **Modern UI** — Clean, minimal, and professional visual design
-* 🧭 **Smooth Navigation** — Intuitive navigation between portfolio sections
-* ⚡ **Fast Development** — Powered by Vite
-* 🎨 **Tailwind Styling** — Utility-first responsive design
-* 🧹 **Code Quality** — ESLint-based development workflow
-* 📐 **Scalable Structure** — Easy to maintain and extend
+---
 
-### 📄 Portfolio Sections
-* 👋 **Hero** — Introduction, role, tagline, and primary CTAs
-* 👨‍💻 **About** — Background, education, interests, and goals
-* 🛠️ **Skills** — Technologies, frameworks, tools, and technical expertise
-* 🚀 **Projects** — Featured projects with technologies and links
-* 💼 **Services** — Development capabilities and technical services
-* 📈 **Experience** — Internships, achievements, and milestones
-* 🏆 **Achievements** — Hackathons, certifications, and accomplishments
-* 📬 **Contact** — Opportunities, collaboration, and networking
-* 🔗 **Footer** — Social links, navigation, and additional information
+✨ Features
 
-## 🖥️ Tech Stack
-| Technology          | Purpose                                            |
-| ------------------- | -------------------------------------------------- |
-| ⚛️ **React**        | Building reusable and interactive UI components    |
-| 📘 **TypeScript**   | Type-safe and maintainable application development |
-| 🎨 **Tailwind CSS** | Utility-first responsive styling                   |
-| ⚡ **Vite**          | Development server and production build tooling    |
-| 📦 **npm**          | Dependency and package management                  |
-| 🧹 **ESLint**       | Code quality and consistency                       |
+🎯 Core Features
 
+- 📱 Responsive Design — Adapts to desktop, tablet, and mobile screen sizes
+- ⚛️ Component-Based UI — Portfolio sections are organized into reusable React components
+- 🎨 Modern Interface — Clean and professional visual design
+- 🧭 Section Navigation — Easy navigation between portfolio sections
+- ⚡ Vite Development Workflow — Fast development server and optimized production builds
+- 🎨 Tailwind CSS — Utility-first responsive styling
+- 📘 TypeScript — Strong typing and improved maintainability
+- 🧹 ESLint — Consistent code quality and development standards
+- 📂 Modular Project Structure — Organized codebase designed for future expansion
 
-## 🏗️ Architecture
+---
 
-The project uses a **component-driven frontend architecture** where each major portfolio section is implemented as an independent, reusable component.
+📄 Portfolio Sections
 
-                    ┌──────────────────────┐
-                    │        User          │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │   React Application  │
-                    └──────────┬───────────┘
-                               │
-          ┌────────────────────┼────────────────────┐
-          │                    │                    │
-          ▼                    ▼                    ▼
-     Navigation           Page Sections         Components
-                              │
-          ┌───────────────────┼────────────────────┐
-          │                   │                    │
-          ▼                   ▼                    ▼
-        Hero               Skills              Projects
-          │                   │                    │
-          ├───────────────┬───┴────────────┬───────┤
-          ▼               ▼                ▼       ▼
-        About          Services        Experience Contact
-                              │
-                              ▼
-                     ┌──────────────────┐
-                     │   Tailwind CSS   │
-                     └────────┬─────────┘
-                              │
-                              ▼
-                   Responsive User Interface
+👋 Hero
 
+The primary introduction section that establishes professional identity and provides quick access to important actions.
 
-## 📂 Project Structure
+Typical content includes:
+
+- Developer introduction
+- Professional headline
+- Short personal tagline
+- Primary call-to-action
+- Professional/social profile links
+
+👨‍💻 About
+
+Provides an overview of academic background, interests, development journey, and career objectives.
+
+🛠️ Skills
+
+Presents technical capabilities across relevant development areas, such as:
+
+- Programming Languages
+- Frontend Development
+- Backend Development
+- Databases
+- AI / Machine Learning
+- Cloud & DevOps
+- Developer Tools
+
+🚀 Projects
+
+Highlights selected projects with a focus on practical implementation and technical capabilities.
+
+Project information may include:
+
+- Project description
+- Problem being solved
+- Key features
+- Technologies used
+- GitHub repository
+- Live demo
+- Project outcomes
+
+💼 Services
+
+Communicates development capabilities and areas where technical expertise can be applied, including:
+
+- Web Development
+- Frontend Development
+- Backend Development
+- REST API Development
+- UI Implementation
+- AI/ML Solutions
+- Software Development
+
+📈 Experience
+
+Presents professional and technical growth through relevant:
+
+- Internships
+- Projects
+- Hackathons
+- Certifications
+- Achievements
+- Leadership and other development experiences
+
+🏆 Achievements
+
+Showcases notable accomplishments, certifications, competitions, and other professional milestones.
+
+📬 Contact
+
+Provides a straightforward way for visitors to connect regarding:
+
+- Job opportunities
+- Internships
+- Freelance work
+- Collaboration
+- Technical discussions
+- Professional networking
+
+🔗 Footer
+
+Contains supporting navigation and professional information such as:
+
+- Quick links
+- Social profiles
+- Contact information
+- Copyright information
+- Additional resources
+
+---
+
+🖥️ Tech Stack
+
+Technology| Role
+⚛️ React| Building reusable and interactive UI components
+📘 TypeScript| Type-safe application development
+🎨 Tailwind CSS| Responsive and utility-first styling
+⚡ Vite| Development server and production build tooling
+📦 npm| Dependency and package management
+🧹 ESLint| Code quality and consistency
+
+---
+
+🏗️ Architecture
+
+The application follows a component-driven frontend architecture.
+
+                         ┌──────────────────┐
+                         │      Visitor     │
+                         └────────┬─────────┘
+                                  │
+                                  ▼
+                         ┌──────────────────┐
+                         │  React Frontend  │
+                         └────────┬─────────┘
+                                  │
+             ┌────────────────────┼────────────────────┐
+             │                    │                    │
+             ▼                    ▼                    ▼
+       Navigation           Portfolio Sections      Footer
+                                  │
+          ┌───────────────────────┼───────────────────────┐
+          │           │           │           │           │
+          ▼           ▼           ▼           ▼           ▼
+        Hero        About       Skills      Projects    Contact
+                                  │
+                       ┌──────────┴──────────┐
+                       │                     │
+                       ▼                     ▼
+                 React Components      Tailwind CSS
+                                             │
+                                             ▼
+                                  Responsive User Interface
+
+Architectural Principles
+
+- Component separation — Each major section has a dedicated component
+- Reusability — Common UI patterns can be reused across sections
+- Separation of concerns — Structure, styling, and application logic remain organized
+- Type safety — TypeScript provides compile-time type checking
+- Maintainability — Clear folder organization makes future modifications easier
+- Scalability — New sections and functionality can be added without restructuring the entire application
+
+---
+
+📂 Project Structure
 
 portfolio/
 │
@@ -151,298 +250,276 @@ portfolio/
 ├── eslint.config.js
 └── README.md
 
+«Note: The structure above reflects the intended React + TypeScript organization. If the actual repository differs, update this section to match the implementation.»
 
-> **Note:** The structure above assumes a React + TypeScript implementation. If the project uses JavaScript/JSX instead, update the file extensions accordingly.
+---
 
-## 🧩 Portfolio Sections
+⚙️ Getting Started
 
-### 🧭 Navbar
-Provides access to major portfolio sections through a responsive navigation interface.
-
-**Highlights:**
-* Section navigation
-* Responsive mobile menu
-* Clear visual hierarchy
-* Smooth user experience
-
-### 👋 Hero Section
-
-The primary introduction area designed to immediately communicate professional identity.
-
-**Includes:**
-
-* Professional introduction
-* Developer headline
-* Short personal tagline
-* Primary call-to-action
-* Social/profile links
-
-### 👨‍💻 About Section
-Provides a concise overview of professional and academic background.
-
-**Includes:**
-
-* Education
-* Professional interests
-* Career objectives
-* Personal highlights
-* Development journey
-
-### 🛠️ Skills Section
-
-Organizes technical expertise into meaningful categories:
-
-* Programming Languages
-* Frontend Development
-* Backend Development
-* Databases
-* Cloud & DevOps
-* AI / Machine Learning
-* Developer Tools
-
-### 🚀 Projects Section
-
-Showcases selected technical projects with emphasis on practical implementation.
-
-Each project can include:
-
-* Project overview
-* Problem solved
-* Key features
-* Technologies used
-* GitHub repository
-* Live demo
-* Project outcomes
-
-### 💼 Services Section
-
-Highlights technical capabilities such as:
-
-* Web Development
-* Frontend Development
-* Backend Development
-* REST API Development
-* UI/UX Implementation
-* AI/ML Solutions
-* Software Development
-
-### 📈 Experience Section
-
-Presents professional growth through a timeline containing:
-
-* Internships
-* Projects
-* Hackathons
-* Certifications
-* Achievements
-* Leadership experience
-
-### 📬 Contact Section
-
-Designed to make professional communication simple for:
-
-* 💼 Job opportunities
-* 🤝 Collaborations
-* 🚀 Freelance projects
-* 💡 Technical discussions
-* 🌐 Networking
-
-### 🔗 Footer
-
-Provides:
-
-* Quick navigation
-* Social profiles
-* Contact information
-* Copyright information
-* Additional links
-
-## ⚙️ Getting Started
-
-### Prerequisites
+Prerequisites
 
 Make sure the following are installed:
 
-* **Node.js**
-* **npm**
-* **Git**
+- Node.js — LTS version recommended
+- npm — Included with Node.js
+- Git — Required for cloning the repository
 
-Verify your installation:
+Verify the installations:
 
-### 1️⃣ Clone the Repository
+node --version
+npm --version
+git --version
 
-### 2️⃣ Navigate to the Project
+1. Clone the Repository
 
-### 3️⃣ Install Dependencies
+git clone <repository-url>
 
-### 4️⃣ Start the Development Server
+2. Navigate to the Project
 
-Vite will provide a local development URL, typically:
+cd portfolio
 
-Open the URL in your browser to view the portfolio.
+3. Install Dependencies
 
-## 🏭 Production Build
+npm install
+
+4. Start the Development Server
+
+npm run dev
+
+Vite will start the local development server and display the available URL in the terminal.
+
+Open that URL in a browser to view the portfolio.
+
+---
+
+🏭 Production Build
 
 Create an optimized production build:
 
+npm run build
+
 Preview the production build locally:
 
-The production-ready files will be generated in the:
+npm run preview
 
-directory.
+The generated production files are typically placed in:
 
-## 🎨 Design Philosophy
-The portfolio is built around six core principles.
+dist/
 
-### 🧘 Minimalism
-Keep the interface clean and focused while avoiding unnecessary visual clutter.
+---
 
-### 📱 Responsiveness
-Provide a consistent experience across desktops, tablets, and mobile devices.
+🧹 Code Quality
 
-### ♿ Accessibility
+Run the project's linting workflow with:
 
-Use semantic HTML, readable typography, meaningful navigation, and accessible interactions.
+npm run lint
 
-### ⚡ Performance
+ESLint helps identify potential problems and maintain consistent coding practices throughout the project.
 
-Use Vite, optimized components, and efficient frontend practices to deliver a fast experience.
+---
 
-### 🧩 Scalability
+🎨 Design Philosophy
 
-Maintain reusable components and a structured codebase so new features can be added easily.
+The portfolio is designed around several core principles.
 
-### 🎯 User Experience
+🧘 Minimalism
 
-Make important information easy to discover while keeping interactions intuitive and purposeful.
+Keep the interface focused on meaningful content while avoiding unnecessary visual complexity.
 
+📱 Responsiveness
 
-## 📊 Performance & Quality Goals
+Provide a consistent experience across different screen sizes and devices.
 
-The project aims to provide:
-* ⚡ Fast page loading
-* 📱 Mobile-first responsiveness
-* 🧩 Reusable UI components
-* 🧹 Maintainable code
-* ♿ Accessible navigation
-* 🔍 SEO-friendly structure
-* 🚀 Production-ready builds
-* 📦 Optimized asset usage
-* 🛡️ Reliable and clean code
+♿ Accessibility
 
-## 🗺️ Roadmap
+Use semantic HTML, readable typography, meaningful navigation, and accessible interactive elements.
 
-### 🎨 UI & UX
+⚡ Performance
 
-* [ ] 🌙 Dark / Light theme toggle
-* [ ] ✨ Advanced animations and micro-interactions
-* [ ] 🎭 Improved page transitions
-* [ ] 📱 Further mobile UX improvements
+Use Vite and efficient frontend development practices to keep the application lightweight and responsive.
 
-### 🚀 Functionality
+🧩 Modularity
 
-* [ ] 🔎 Project filtering by technology
-* [ ] 📝 Personal blog section
-* [ ] 📄 Downloadable resume
-* [ ] 📬 Functional contact form
-* [ ] 📧 Email notification system
-* [ ] 🤖 AI-powered portfolio assistant
+Organize the interface into independent components that can be maintained and extended individually.
 
-### 📈 Performance & Deployment
+🎯 User Experience
 
-* [ ] 🔍 SEO optimization
-* [ ] 📊 Analytics integration
-* [ ] ♿ Advanced accessibility improvements
-* [ ] 🌐 Custom domain deployment
-* [ ] 📈 Performance monitoring
-* [ ] 🔐 Production security improvements
+Make important information easy to discover while keeping navigation and interactions intuitive.
 
+---
 
-## 🔐 Code Quality & Best Practices
+📊 Quality Goals
 
-The project follows modern frontend development principles, including:
+The project aims to maintain:
 
-* ♻️ Component reusability
-* 📘 Type-safe development
-* 🧱 Separation of concerns
-* 🌐 Semantic HTML
-* 📱 Responsive design
-* 🧹 Consistent naming conventions
-* 📂 Organized folder structure
-* 🎨 Maintainable styling architecture
-* 🔧 Environment-based configuration
-* 🚀 Production-ready build practices
+- ⚡ Fast loading and responsive interactions
+- 📱 Mobile-first compatibility
+- 🧩 Reusable UI components
+- 📘 Strong TypeScript usage
+- 🧹 Maintainable source code
+- ♿ Accessible interfaces
+- 🔍 Search-engine-friendly structure
+- 📦 Efficient asset usage
+- 🚀 Reliable production builds
+- 🔐 Secure deployment practices
 
-## 🤝 Contributing
+«These are project goals rather than guarantees of a specific performance or accessibility score.»
+
+---
+
+🌐 Deployment
+
+The production build generated by Vite can be deployed to modern static hosting platforms.
+
+Typical deployment workflow:
+
+npm run build
+
+Then deploy the generated:
+
+dist/
+
+directory using the hosting provider's recommended deployment process.
+
+Possible deployment platforms include:
+
+- GitHub Pages
+- Vercel
+- Netlify
+- Cloudflare Pages
+- Other static hosting providers
+
+---
+
+🗺️ Roadmap
+
+Future improvements may include:
+
+🎨 UI / UX
+
+- [ ] 🌙 Dark / Light theme toggle
+- [ ] ✨ Advanced animations and micro-interactions
+- [ ] 🎭 Enhanced page transitions
+- [ ] 📱 Additional mobile UX improvements
+
+🚀 Functionality
+
+- [ ] 🔎 Project filtering by technology
+- [ ] 📝 Personal blog
+- [ ] 📄 Downloadable resume
+- [ ] 📬 Functional contact form
+- [ ] 📧 Email notification integration
+- [ ] 🤖 AI-powered portfolio assistant
+
+📈 Performance & Deployment
+
+- [ ] 🔍 Advanced SEO optimization
+- [ ] 📊 Analytics integration
+- [ ] ♿ Additional accessibility improvements
+- [ ] 🌐 Custom domain
+- [ ] 📈 Performance monitoring
+- [ ] 🔐 Additional production security hardening
+
+---
+
+🔐 Development Best Practices
+
+The project follows modern frontend development practices, including:
+
+- ♻️ Component reusability
+- 📘 Type-safe development
+- 🧱 Separation of concerns
+- 🌐 Semantic HTML
+- 📱 Responsive layouts
+- 🧹 Consistent naming conventions
+- 📂 Organized source structure
+- 🎨 Maintainable styling
+- 🔧 Environment-based configuration where required
+- 🚀 Production-oriented build practices
+
+---
+
+🤝 Contributing
 
 Contributions, suggestions, and improvements are welcome.
 
-### Contribution Workflow
+Development Workflow
 
-# Create a feature branch
+Create a feature branch:
+
 git checkout -b feature/new-feature
 
-# Stage your changes
+Stage your changes:
+
 git add .
 
-# Commit your changes
+Commit the changes:
+
 git commit -m "feat: add new portfolio feature"
 
-# Push the branch
+Push the branch:
+
 git push origin feature/new-feature
 
-Then open a **Pull Request** describing your changes.
+Then open a Pull Request with a clear description of the changes.
 
-## ⭐ Support
+---
 
-If you find this project useful or interesting, consider giving the repository a **⭐ Star** on GitHub.
+⭐ Support
 
-Feedback, suggestions, and improvement ideas are always welcome.
+If you find this project useful or interesting, consider giving the repository a ⭐ Star on GitHub.
 
+Feedback, suggestions, and improvements are always welcome.
 
-## 📌 Project Status
-**Status:** 🟢 Actively Maintained
-The portfolio is continuously evolving with:
+---
 
-* 🚀 New projects
-* 🛠️ New technologies
-* 🏆 New achievements
-* 💼 Professional experience
-* 🎨 UI/UX improvements
-* ⚡ Performance enhancements
+📌 Project Status
 
+Status: 🟢 Actively Maintained
 
-## 👨‍💻 About the Developer
+The portfolio is continuously evolving as new:
 
-**Mohit Raikwar** is a Computer Science & Engineering student with an interest in:
-* 🤖 Artificial Intelligence & Machine Learning
-* 💻 Software Development
-* 🌐 Web Development
-* ⚙️ Backend & Distributed Systems
-* ☁️ DevOps & Cloud Technologies
-* 📊 Data Science
-* 🚀 Scalable Applications
+- 🚀 Projects are completed
+- 🛠️ Technologies are learned
+- 🏆 Achievements are earned
+- 💼 Experiences are gained
+- 🎨 UI/UX improvements are implemented
+- ⚡ Performance improvements are introduced
 
-This portfolio represents a continuous journey of **learning, building, experimenting, and growing as a developer**.
+---
 
-## 📄 License
+👨‍💻 About the Developer
 
-This project is intended for **personal and educational use**.
+Mohit Raikwar is a Computer Science & Engineering student interested in building practical software and exploring modern technologies.
 
-If you reuse significant portions of the design or source code, please provide appropriate attribution.
+Areas of Interest
 
-## 🚀 Built With
+- 🤖 Artificial Intelligence & Machine Learning
+- 💻 Software Development
+- 🌐 Web Development
+- ⚙️ Backend & Distributed Systems
+- ☁️ Cloud & DevOps
+- 📊 Data Science
+- 🚀 Scalable Applications
 
-<p align="center">
+This portfolio represents an ongoing journey of learning, building, experimenting, and growing as a developer.
 
-**React** • **TypeScript** • **Tailwind CSS** • **Vite**
+---
 
-</p>
+📄 License
 
-<p align="center">
+This project is intended primarily for personal and educational use.
+
+If significant portions of the design or source code are reused, appropriate attribution is appreciated.
+
+---
+
+🚀 Built With
+
+<p align="center">React • TypeScript • Tailwind CSS • Vite
+
+</p><p align="center">
   <strong>Designed to showcase skills. Built to create opportunities. 🚀</strong>
-</p>
-
-<p align="center">
-  ⭐ If you like this project, consider giving it a star!
+</p><p align="center">
+  ⭐ If you like this project, consider giving the repository a star!
 </p>
