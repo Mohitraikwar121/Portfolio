@@ -298,20 +298,14 @@ Preview the production build locally:
 npm run preview
 
 The generated production files are typically placed in:
-
 dist/
-
----
 
 🧹 Code Quality
 
 Run the project's linting workflow with:
-
 npm run lint
 
 ESLint helps identify potential problems and maintain consistent coding practices throughout the project.
-
----
 
 🎨 Design Philosophy
 
@@ -341,8 +335,6 @@ Organize the interface into independent components that can be maintained and ex
 
 Make important information easy to discover while keeping navigation and interactions intuitive.
 
----
-
 📊 Quality Goals
 
 The project aims to maintain:
@@ -359,8 +351,6 @@ The project aims to maintain:
 - 🔐 Secure deployment practices
 
 «These are project goals rather than guarantees of a specific performance or accessibility score.»
-
----
 
 🌐 Deployment
 
@@ -383,8 +373,6 @@ Possible deployment platforms include:
 - Netlify
 - Cloudflare Pages
 - Other static hosting providers
-
----
 
 🗺️ Roadmap
 
@@ -414,8 +402,6 @@ Future improvements may include:
 - [ ] 🌐 Custom domain
 - [ ] 📈 Performance monitoring
 - [ ] 🔐 Additional production security hardening
-
----
 
 🔐 Development Best Practices
 
