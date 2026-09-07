@@ -66,7 +66,6 @@ Objective| Implementation
 
 
 📄 Portfolio Sections
-
 👋 Hero
 
 The primary introduction section that establishes professional identity and provides quick access to important actions.
@@ -172,6 +171,7 @@ Technology| Role
 🏗️ Architecture
 
 The application follows a component-driven frontend architecture.
+
 
                          ┌──────────────────┐
                          │      Visitor     │
@@ -337,6 +337,7 @@ Make important information easy to discover while keeping navigation and interac
 
 📊 Quality Goals
 
+
 The project aims to maintain:
 
 - ⚡ Fast loading and responsive interactions
@@ -351,6 +352,7 @@ The project aims to maintain:
 - 🔐 Secure deployment practices
 
 «These are project goals rather than guarantees of a specific performance or accessibility score.»
+
 
 🌐 Deployment
 
