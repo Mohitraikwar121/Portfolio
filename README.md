@@ -1,5 +1,5 @@
 <div align="center">
-  
+      
 # 🌐 Personal Portfolio Website
 **A modern, responsive, and interactive developer portfolio built with React, TypeScript, Tailwind CSS, and Vite** — showcasing technical skills, projects, experience, achievements, and professional growth.
 
