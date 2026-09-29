@@ -20,8 +20,6 @@
 
 </div>
 
----
-
 <div align="center">
 
 [Overview](#-overview) •
@@ -36,8 +34,6 @@
 [Roadmap](#️-roadmap)
 
 </div>
-
----
 
 ## 📌 Overview
 
@@ -67,7 +63,6 @@ The application is built using a **component-driven React architecture**, allowi
 | ♿ **Accessibility** | Semantic HTML and accessible interaction patterns |
 | 🚀 **Extensibility** | Modular structure for future features |
 
----
 
 ## ✨ Features
 
