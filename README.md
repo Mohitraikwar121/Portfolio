@@ -2,7 +2,7 @@
                                      
 # 🌐 Personal Portfolio Website
 **A modern, responsive, and interactive developer portfolio built with React, TypeScript, Tailwind CSS, and Vite** — showcasing technical skills, projects, experience, achievements, and professional growth.
-   
+    
 <p>     
   <img src="https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
   <img src="https://img.shields.io/badge/TypeScript-5+-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
